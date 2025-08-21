@@ -1,0 +1,16 @@
+{
+  "development": {
+    "username": "photo_user",
+    "password": "nX04EV1sFKCNWLtUZl3CFPvO9STPRjsH",
+    "database": "photo_caption_dev",
+    "host": "dpg-d2jor5ali9vc73dgksvg-a.oregon-postgres.render.com",
+    "port": 5432,
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    }
+  }
+}
