@@ -2,9 +2,11 @@ const express = require("express");
 const app = express();
 const swaggerJsdoc = require("swagger-jsdoc");
 const swaggerUi = require("swagger-ui-express");
+const authRoutes = require("./routes/auth");
 
 // Middleware
 app.use(express.json());
+app.use("/api/auth", authoRoutes);
 
 //Routes
 const photoRoutes = require("./routes/photos");
